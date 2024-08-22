@@ -17,7 +17,7 @@
 
 **配置方式**
 
-1. 下载仓库中的nginx.7z https://github.com/pmodel/FuXiaoFHX_by_nginx/blob/main/nginx_Fx_v182.7z
+1. 下载仓库中的nginx_Fx_v182.7z https://github.com/pmodel/FuXiaoFHX_by_nginx/blob/main/nginx_Fx_v182.7z
 2. 解压缩后运行nginx.exe，此时会使用80端口和12111端口。
 3. 浏览器访问http://127.0.0.1:80 如果可以正常显示，说明nginx启动成功
 4. 打开模拟器，wifi设置，编辑，配置代理服务器(IP填写电脑IP，端口填写12111)（最下行的忽略网址填写 login.passport.9you.com 以及新增的 fx-game1.9you.com。这两个网址之间用英文逗号隔开）

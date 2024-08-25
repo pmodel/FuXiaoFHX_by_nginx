@@ -1,5 +1,6 @@
-# 安卓使用
+# 安卓模拟器用 拂晓fhx
 **鉴于拂晓的现状。请谨慎在公开场合宣传**
+# 注意：一共需要让3个地址绕过代理。
 ====
 上一代作者不知道为什么删号跑路了，而游戏版本早就更新到了182。
 为了能继续使用，我研究了一下，使我得以代为继续更新这个方案。
@@ -20,11 +21,11 @@
 1. 下载仓库中的nginx_Fx_v182.7z https://github.com/pmodel/FuXiaoFHX_by_nginx/blob/main/nginx_Fx_v182.7z
 2. 解压缩后运行nginx.exe，此时会使用80端口和12111端口。
 3. 浏览器访问http://127.0.0.1:80 如果可以正常显示，说明nginx启动成功
-4. 打开模拟器，wifi设置，编辑，配置代理服务器(IP填写电脑IP，端口填写12111)（最下行的忽略网址填写 login.passport.9you.com 以及新增的 fx-game1.9you.com。这两个网址之间用英文逗号隔开）
+4. 打开模拟器，wifi设置，编辑，配置代理服务器(IP填写电脑IP，端口填写12111)（最下行的忽略网址填写 login.passport.9you.com 以及新增的 fx-game.9you.com 还有 fx-game1.9you.com (分别对应着两个服务器镜之洋和岚之洋)。这三个网址之间用英文逗号隔开）
 
 **存在的问题**
 
-本人以及上一个作者对Nginx都不熟悉，仅会设置HTTP代理，HTTPS会全部无法访问，所以需要忽略HTTPS请求的login.passport.9you.com 以及 fx-game1.9you.com（新增）。
+本人以及上一个作者对Nginx都不熟悉，仅会设置HTTP代理，HTTPS会全部无法访问，所以需要忽略HTTPS请求的login.passport.9you.com 以及 fx-game.9you.com 还有 fx-game1.9you.com（新增）。
 如果哪天你发现什么也没无法访问，比如支付宝页面，大概也是https链接的问题。
 你可以自行从nginx的log目录下找到其他有问题的https链接(带有:443字样的网址)，把前面的网址自行添加到wifi的代理忽略名单那里。
 如果您知道如何设置nginx的https能不用这么麻烦，还请教一下我，谢谢。
